@@ -16,3 +16,5 @@ spec:
     path: argocd/my-apps/app-3
     repoURL: https://github.com/Rajendra08/argocd-apps-of-apps.git
     targetRevision: HEAD
+  syncPolicy:
+    automated: {}
